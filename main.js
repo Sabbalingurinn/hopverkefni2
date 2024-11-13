@@ -3,6 +3,9 @@ import { renderContentPage } from './lib/pages/content-page.js';
 import { renderIndexPage } from './lib/pages/index-page.js';
 import { renderSubpage } from './lib/pages/sub-page.js';
 
+
+
+
 async function render(root, querystring) {
   const mainIndexJson = await fetcher('data/index.json');
 
