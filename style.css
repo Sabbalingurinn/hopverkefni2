@@ -95,7 +95,7 @@ nav ul li {
 nav ul li a {
   border: 2px solid black;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.3rem;
   width: 6rem;
   display: inline-block;
   color: black;
@@ -128,7 +128,7 @@ nav ul li a:hover {
   nav ul li a {
     border: 2px solid black;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.3rem;
     width: 6rem;
     display: inline-block;
     color: black;
@@ -149,7 +149,21 @@ main {
   padding-bottom: 1rem;
 }
 
-main p {
+.main-p {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
   text-align: justify;
   display: flex;
   justify-content: center;
@@ -160,4 +174,57 @@ main p {
 footer {
   text-align: center;
   padding-top: 1rem;
+}
+
+/* Keywords-questions-lectures */
+
+.undir-h1,
+.undir-h2,
+.undir-h3,
+.undir-h4,
+.undir-p,
+.undir-ul,
+.undir-blockquote,
+.undir-answers,
+pre {
+  padding-bottom: 1rem;
+}
+
+.undir-h1,
+.undir-h2,
+.undir-h3,
+.undir-h4 {
+  justify-content: center;
+}
+
+.undir-p {
+  justify-content: center;
+}
+
+.undir-li {
+  list-style: none;
+}
+
+.undir-blockquote {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  justify-content: center;
+}
+
+.undir-cite {
+  font-style: normal;
+}
+
+@media (max-width: 655px) {
+  .undir-blockquote {
+    text-align: left;
+    font-style: italic;
+    justify-content: center;
+  }
+}
+
+.undir-answers {
+  justify-content: center;
+  list-style: none;
 }
