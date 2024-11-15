@@ -20,9 +20,9 @@ async function render(root, querystring) {
   }
 
   if (content) {
-    return renderContentPage(root, mainIndexJson);
+    return renderContentPage(root, mainIndexJson, content, type);
   }
-
+  
   renderSubpage(root, mainIndexJson, type);
 }
 
