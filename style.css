@@ -228,3 +228,13 @@ pre {
   justify-content: center;
   list-style: none;
 }
+
+.undir-answers > .undir-answer:last-child,
+.undir-answers > .undir-answer-correct:last-child {
+  padding-bottom: 0;
+}
+
+.undir-answer,
+.undir-answer-correct {
+  padding-bottom: 0.5rem;
+}
