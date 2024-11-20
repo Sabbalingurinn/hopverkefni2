@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eslint": "eslint ."
   },
   "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^8.57.1",
+    "globals": "^15.12.0",
     "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "stylelint": "^16.10.0"
   }
 }

@@ -26,7 +26,6 @@ html {
 }
 
 .hidden {
-  /* Viljum að þetta feli alltaf element, notum því !important */
   display: none !important;
 }
 
@@ -55,19 +54,17 @@ button {
   max-width: var(--max-width);
 }
 
-/* Body */
-
 body {
   padding: 1rem;
 }
 
-/* Header */
+/* Header og footer */
 
 header h1 {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   header h1 {
     text-align: center;
     font-size: 1.5em;
@@ -186,8 +183,10 @@ footer {
 .undir-ul,
 .undir-blockquote,
 .undir-answers,
+.under-figure,
+.under-img,
 pre {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .undir-h1,
@@ -237,4 +236,8 @@ pre {
 .undir-answer,
 .undir-answer-correct {
   padding-bottom: 0.5rem;
+}
+
+.under-img {
+  max-width: 100%;
 }
