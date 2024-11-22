@@ -10,7 +10,7 @@ Við fengum það skemmtilega verkefni að útfæra kennslusíðu sem kennir all
 
 ### Hýsing
 
-[![Netlify Status](linkur)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/510e0ae3-fafd-4c1a-b7fc-a32cb5261251/deploy-status)](https://app.netlify.com/sites/so-hopverkefni2/deploys)
 
 ### Vinna
 
@@ -39,8 +39,6 @@ Helstu pakkarnir sem voru notaðir og tilgangur þeirra:
 
 - npm (Node Package Manager)
    - pakkastjóri sem heldur utan um öll tólin.
-- browser-sync
-   - Vaktar skráarkerfi og endurhleður vafra þegar breytingar eru gerðar
 - stylelint
    - CSS linter, notað til að halda CSS-inu snyrtilegu
       - stylelint config pakkar: (skilgreina reglur fyrir linterinn)
@@ -71,4 +69,4 @@ Ef allt gekk vel ætti nú að opnast vafragluggi með síðunni.
 
 ### Lærdómur
 
-Þetta verkefni var ansi góð æfing í hópavinnu og góð leið til að kynnast git betur.
+Þetta verkefni var ansi góð æfing í javascript og góð leið til að kynnast git en þá betur.
